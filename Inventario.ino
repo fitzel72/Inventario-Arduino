@@ -20,7 +20,7 @@ int numTarjetas = 0;
 
 void setup() {
   Serial.begin(9600);
-  delay(2000);  // Esperar a que se estabilice
+  delay(2000); 
   Serial.println();
   Serial.println("=== INICIANDO SISTEMA ===");
   
